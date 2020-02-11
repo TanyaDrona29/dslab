@@ -7,5 +7,6 @@ public class Solution1Main {
         int x = 1;
         int y = 2;
         object.arrangeString(string, x, y);
+
     }
 }
