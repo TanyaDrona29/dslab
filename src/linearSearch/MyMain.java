@@ -12,6 +12,14 @@ public class MyMain {
             System.out.println("enter element");
             arr[i] = scanner.nextInt();
         }
-
-
+        System.out.println("enter element to be searched");
+        int searchElement = scanner.nextInt();
+        MyLinearSearch myLinearSearch = new MyLinearSearch(arr);
+        boolean result = myLinearSearch.linearSearch(searchElement);
+        if (result) {
+            System.out.println("element found");
+        } else {
+            System.out.println("element not found");
+        }
     }
+}
