@@ -10,4 +10,15 @@ public class patternClass {
         }
     }
 
+    public void printSquare(int lengthSquare) {
+        for (int i = 1; i <= lengthSquare; i++) {
+            for (int j = 1; j <= lengthSquare; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+
 }
+
